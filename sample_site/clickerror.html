@@ -1,0 +1,3 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Button that breaks</title><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="style.css"></head>
+<body><main><h1>Broken click handler</h1><p>The button below throws a JavaScript error when clicked. This page contains enough ordinary text so it is analysed as a normal page and not as an empty shell, which is what the click test needs.</p>
+<button type="button" id="boom" onclick="console.error('boom: click handler failed'); throw new Error('boom')">Load more</button></main></body></html>

@@ -1,0 +1,6 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Clickable elements demo</title><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="style.css"></head>
+<body><header><nav><a href="index.html">Home</a><a href="about.html">About</a><a href="products.html">Products</a></nav></header>
+<main><h1>Click tests</h1><p id="status">idle</p>
+<p>This page has one harmless button, one destructive-looking button that TestPilot must never click, and links. It contains enough ordinary text to be a normal page, not an empty application shell, so the analyzer treats it as real content.</p>
+<button type="button" id="reveal" onclick="document.getElementById('status').textContent='revealed'">Show details</button>
+<button type="button" id="danger" onclick="localStorage.setItem('danger_clicked','yes');document.title='DANGER CLICKED'">Delete account</button></main></body></html>

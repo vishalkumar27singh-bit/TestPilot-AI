@@ -1,0 +1,16 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+screenshots/*
+!screenshots/.gitkeep
+test_results/*
+!test_results/.gitkeep
+.DS_Store
+.ipynb_checkpoints/
+*.db
+
+# Streamlit secrets (never commit)
+.streamlit/secrets.toml
